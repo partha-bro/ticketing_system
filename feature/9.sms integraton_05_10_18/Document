@@ -1,0 +1,17 @@
+SMS integration on ticketing system
+
+Step 1: Goto to the "scp folder" and Copy the five files (sms_open.php,backend-search.php,connDB.php,info_table.php and sms_close.php)
+
+Step 2: Paste in support > scp folder of ticketing system
+
+Step 3: Goto the "css folder" and copy the info_tab.css and paste into support > scp > css folder
+
+Step 4: Goto to the "staff folder" and Copy the three files (ticket-open.inc.php,dashboard.inc.php and ticket-view.inc.php)
+
+Step 5: Paste in support > include > staff folder of ticketing system 
+
+Step 6: Copy the "sms folder" and paste into the support folder
+
+Step 7: Make a table in support database name "ost_feedback" after that
+
+Step 8: Goto the database folder and "ost_feedback.sql" import in support database

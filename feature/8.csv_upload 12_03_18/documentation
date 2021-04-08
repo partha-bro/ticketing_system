@@ -1,0 +1,20 @@
+Upload CSV file to ticketing system.
+
+1.firstly import "ost_record" table in support database
+2.Make a "uploads" folder in "support/scp" folder give permision to upload folder
+3.Make a "connDB.php" for connection database in "support/scp" folder
+4.Require "connDB.php" in some of php file like
+	a.info_table.php
+	b.info_table_action.php
+	c.backend-search.php
+	d.custom_table.php	(just update the file)
+	e.ticket_export.php	(just update the file)
+5.Make a csv upload website and search the element, so require file 
+	Goto support/scp folder
+	1.info_table.php
+	2.info_table_action.php
+	3.backend-search.php
+	4.info_tab.css		(support/scp/css)
+	5.update dashboard.inc.php (support/include/staff)
+	6.jquery-2.2.4.min.js	(support/scp/js)
+6.The upload file name must be "school_info.csv" with specific format.

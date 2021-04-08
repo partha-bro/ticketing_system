@@ -1,0 +1,15 @@
+Expense integration on ticketing system
+
+Step 1: Goto to the "scp folder" and Copy all the files
+
+Step 2: Paste in support > scp folder of ticketing system
+
+Step 3: Goto the "css folder" and copy the expense.css and paste into support > scp > css folder
+
+Step 4: Goto to the "include -> staff folder" and Copy the one file 
+
+Step 5: Paste in support > include > staff folder of ticketing system 
+
+Step 7: Make a table in support database name "ost_expense" after that
+
+Step 8: Goto the database folder and "ost_expense.sql" import in support database

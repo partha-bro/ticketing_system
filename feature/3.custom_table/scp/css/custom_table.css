@@ -1,0 +1,87 @@
+body {font-family: "Lato", sans-serif;}
+
+/* Style the tab */
+div.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+/* Style the buttons inside the tab */
+div.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+div.tab button:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+div.tab button.active {
+    background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+.tablinks {
+  width: 20%;
+}
+table td {
+			transition: all .5s;
+		}
+		
+		/* Table */
+		.data-table {
+			border-collapse: collapse;
+			font-size: 14px;
+			min-width: 537px;
+			width:100%;
+		}
+
+		.data-table th, 
+		.data-table td {
+			border: 1px solid #e1edff;
+			padding: 7px 17px;
+		}
+		.data-table caption {
+			margin: 7px;
+		}
+
+		/* Table Header */
+		.data-table thead th {
+			background-color: #508abb;
+			color: #FFFFFF;
+			border-color: #6ea1cc !important;
+			text-transform: uppercase;
+		}
+
+		/* Table Body */
+		.data-table tbody td {
+			color: #353535;
+		}
+		.data-table tbody td:first-child,
+		.data-table tbody td:nth-child(4),
+		.data-table tbody td:last-child {
+			text-align: center;
+		}
+
+		.data-table tbody tr:nth-child(odd) td {
+			background-color: #f4fbff;
+		}
+		.data-table tbody tr:hover td {
+			background-color: #ffffa2;
+			border-color: #ffff0f;
+		}
